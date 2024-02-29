@@ -1,0 +1,43 @@
+version: '3.0'
+
+services:
+  web:
+    container_name: magento
+    image: alexcheng/magento
+    ports:
+      - "80:80"
+    environment:
+      MYSQL_HOST: magento-db
+      MYSQL_DATABASE: magento  
+      MYSQL_USER: root
+      MYSQL_PASSWORD: root
+      MAGENTO_LOCALE: pt_BR
+      MAGENTO_TIMEZONE: America/Sao_Paulo
+      MAGENTO_DEFAULT_CURRENCY: BRL
+      MAGENTO_URL: 127.0.0.1
+      MAGENTO_ADMIN_EMAIL: admin@admin.com.br
+      MAGENTO_ADMIN_USERNAME: admin
+      MAGENTO_ADMIN_PASSWORD: admin123
+    #volumes:
+    #  - ./local:/var/www/html    
+    links:
+      - db
+  db:
+    container_name: magento-db
+    image: mysql:5.7
+    volumes:
+      - db-data:/var/lib/mysql
+    environment:
+      MYSQL_DATABASE: magento
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_ROOT_HOST: '%'
+  phpmyadmin:
+    container_name: magento-phpmyadmin
+    image: phpmyadmin/phpmyadmin
+    ports:
+      - "8580:80"
+    links:
+      - db
+volumes:
+  db-data:
+  local: {}  

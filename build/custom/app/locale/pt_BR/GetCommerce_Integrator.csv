@@ -1,0 +1,153 @@
+/** Global */
+"My Integrations","Minhas Integrações"
+"External ID","ID Externo"
+"Entity","Entidade"
+"Entity ID","ID"
+General,Geral
+Delete,Remover
+Map,Mapear
+"Category Mapper","Mapear Categorias"
+"%s - Category Mapper","%s - Mapear Categorias"
+"Entity mapper","Mapeador de Entidade"
+"Mapped Entities","Entidades Mapeadas"
+"After the deletion the entities previously mapped will have their action re-runned. e.g: If the mappment is for an order, this order will be exported again. Are you sure?","Após deletar um mapeamento as ações relativas a entidade em questão serão performadas novamente. Ex.: Ao deletar o mapeamento de um pedido, este pedido será exportado novamente. Você tem certeza?"
+Product update,"Atualização de Produto"
+Customer export,"Exportação de Cliente"
+Order export,"Exportação de Pedido"
+Product export,"Exportação de Produto"
+Import,Importar
+Content,Conteúdo
+Internal Id,"ID na Loja"
+External Id,"ID Externo"
+" Import","Importar"
+" Update","Atualizar"
+" Export","Exportar"
+"Import %s", "Cadastrar %s"
+"Update %s", "Atualizar %s"
+import,importar
+export,exportar
+update,atualizar
+Imported,Importado
+Export,Exportar
+Exported,Exportado
+Update,Atualizar
+Updated,Atualizado
+Search,Buscar
+Reload,Atualizar
+"Search Mode","Modo Busca"
+"Item [%s] not found","Item [%s] não encontrado"
+"click here","clique aqui"
+"System > Scheduled Jobs","Sistema > Processos Agendados"
+"<p>%s - %ss</p><p>In this page, you will be able to perform actions between your %ss in %s and your Get Commerce's store.</p><br>","<p>%s - %ss</p><p>Nesta página, você conseguirá executar ações entre seus %ss do %s e sua loja virtual Get Commerce.</p><br>"
+"<p>No %s found in %s! If you do have %ss in your %s system, please check if:</p><br><p>- Your %s integration is correctly authorized;</p><p>- The %ss are correctly configured at %s.</p><p>If you still need help %s and register a ticket!</p>","<p>Nenhum %s encontrando no %s! Caso hajam %ss cadastrados em sua plataforma %s, certifique-se que:</p><br><p>- A sua integração %s está corretamente autorizada;</p><p>- Os %ss estão corretamente configurados no %s. Por exemplo, produtos sem código/sku não serão listados.</p><p>Caso você ainda precise de ajuda, %s para abrir um chamado com o suporte técnico!</p>"
+"<p>> How to import %ss from %s?</p><p>In this page all %s's %ss available to import to your store are shown in the bellow grid. Follow the instructions to schedule an import:</p><p>1. Select which %ss from the %s grid you want to import;</p><p>2. Choose the action 'Import' from the 'Actions' dropdown;</p><p>3. Now, click 'Submit' to schedule the import process.</p><p>Easy right? The import process will begin in matter of 10 minutes. You can check all scheduled jobs at: %s</p>","<p>> Como importar %ss do %s?</p><p>Nesta página, todos %ss em seu sistema %s válidos para importação serão exibidos na tabela abaixo. Siga as instruções abaixo para agendar uma importação:</p><p>1. Selecione qual(is) %s(s) do sistema %s você deseja importar.</p><p>2. Escolha a ação 'Importar' no menu 'Ações' no canto direito superior da tabela;</p><p>3. Agora, clique em 'Enviar' para adicionar o processo à fila de processos agendados.</p><p>Fácil, né? O processo de importação será iniciado dentro de 10 minutos. Você pode visualizar todos os processos agendados em: %s</p>"
+"<p>Some functionalities may not be available in your store. Contact support to learn more.</p>","<p>Algumas funcionalidades podem estar indisponíveis. Contate o suporte para saber mais.</p>"
+Back,Voltar
+"Delete after","Deletar após"
+"Event Logs","Logs de Evento"
+"%s days","%s dias"
+"Progress ","Progresso "
+"Old Value","Valor Antigo"
+"New Value","Valor Novo"
+"Flush Integrations Cache","Liberar Cache de Integrações"
+"Cached entities from integrations.","Entidades em cache de integrações."
+"Integrations cache cleared.","O cache de integrações foi limpo."
+
+/** Entities */
+Products,Produtos
+Product,Produto
+product,produto
+Orders,Pedidos
+Order,Pedido
+Customers,Clientes
+Customer,Cliente
+"%s - Products","%s - Produtos"
+"%s - Orders","%s - Pedidos"
+"%s - Customers","%s - Clientes"
+Processing...,Processando...
+"catalog/product","produto"
+"sales/order","pedido"
+"customer/customer","cliente"
+"catalog/category","categoria"
+
+/** Entity - Product */
+Price,Preço
+Stock,Estoque
+Qty,Qtd
+Name,Nome
+"Enable/disable search mode in product's listing","Habilita/desabilta o modo busca na listagem de produtos"
+"Product's Code","Código do Produto"
+"Price margin (%)","Margem de preço (%)"
+"Margin that will be applied to product's prices","Margem que será aplicada ao preço dos produtos"
+
+/** Entity - Order */
+"Export with 'Pending' status","Exportar com status 'Pendente'"
+"Will export 'Pending' orders paid with the choosen methods","Exportará pedidos com status 'Pendente' pagos com os métodos de pagamento acima"
+"Export with 'Processing' status","Exportar com status 'Processando'"
+"Will export 'Processing' orders paid with the choosen methods","Exportará pedidos com status 'Processando' pagos com os métodos de pagamento acima"
+
+/** Entity - Category */
+"[%s] Category","[%s] Categoria"
+
+/** Events */
+"Event #%s","Evento #%s"
+Events,Eventos
+Details,Detalhes
+Type,Tipo
+Module,Módulo
+"Created at","Criado em"
+"Updated at","Atualizado em"
+Info,Informações
+Result,Resultado
+Context,Contexto
+Integration Events,Eventos de Integração
+Integration,Integração
+"Created At","Criado em"
+"Updated At","Atualizado em"
+"Api Request","Requisição Api"
+
+/** Messages */
+Success,Sucesso
+Error,Erro
+Pending,Pendente
+
+/** System config */
+"Enable/disable all actions","Habilitar/desabilitar todas as ações"
+"Enable/disable automatic updates","Habilitar/desabilitar atualizações automáticas"
+"Enable/disable automatic export","Habilitar/desabilitar exportações automáticas"
+"Automatically update","Atualizar automaticamente"
+"Automatically export","Exportar automaticamente"
+"Attributes that will be imported/updated (alongside the default ones)","Atributos que serão importados/atualizados (junto dos atributos padrões)"
+Attributes,Atributos
+"Export from","Exportar após"
+"Will only export orders after given date","Apenas exportará os pedidos realizados após a data acima"
+Schedules,Agendamentos
+"Run actions at","Agendar ações para"
+
+/** Authorization */
+Authorization,Autorização
+User,Usuário
+Username,Usuário
+Password,Senha
+
+/** Mapper */
+"Item mapped succesfully","Item mapeado com sucesso!"
+"Map combination already exists","Combinação de mapeamento já existe"
+"Mapped items successfully deleted!","Mapeamento(s) deletado(s) com sucesso!"
+"Unable to map item","Não foi possível mapear este item"
+"%s mapper","Mapeador de %s"
+
+/** File manager */
+"File Uploader","Uploader de Arquivos"
+"File","Arquivo"
+"Invalid file uploaded!","O arquivo enviado é inválido!"
+
+/** Job queue */
+"Invalid entity job provided!","Processo de entidade inválido!"
+Process successfully enqueued! <br>Your process will run at <b>%s</b> %s,Processo adicionado à fila com sucesso!<br>Este processo será executado às <b>%s</b> %s
+Unable to add process to queue!,Não foi possível adicionar o processo à fila!
+"<p>%s - %s %ss</p><br><p>This process will %s the %ss listed bellow from %s to your Get Commerce store.</p>","<p>%s - %s %ss</p><br><p>Este processo irá %s o(s) %s(s) da tabela abaixo de seu sistema %s para sua loja Get Commerce.</p>"
+
+/** Alerts */
+"<span>[%s] The following errors were found in your integration:</span><br>","<span>[%s] Os seguintes erros foram encontrados em sua integração:</span><br>"
+"- Error [%s]","- Erro [%s]"

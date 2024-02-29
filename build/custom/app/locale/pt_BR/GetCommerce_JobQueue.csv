@@ -1,0 +1,42 @@
+"Scheduled Jobs","Processos Agendados"
+"Finished At","Finalizado em"
+"Attempts","Tentativas"
+"Action","Ação"
+"Job Details","Detalhes do Processo"
+"Job","Processo"
+"Job ID","ID do Processo"
+"Job Name","Nome do Processo"
+"Items in this Process","Itens neste Processo"
+"Resubmit","Repetir"
+"Cancel","Cancelar"
+"This job no longer exists.","Este processo não existe mais."
+Job "%s" has been resubmitted,O processo "%s" será repetido
+Job "%s" could not be resubmitted,O processo "%s" não pode ser repetido
+Job "%s" has been canceled,Processo "%s" cancelado
+Job "%s" could not be canceled,O processo "%s" não pode ser cancelado
+%s job(s) could not be resubmitted,%s processo(s) não podem ser repetidos
+%s job(s) resubmitted,%s serão repetidos
+%s job(s) could not be canceled,%s processo(s) não podem ser cancelados
+%s job(s) canceled,%s processo(s) cancelados
+Scheduled Job: "%s",Processo Agendado: "%s"
+Failed,Falhou/Cancelado
+Complete,Completo
+In Process,Em andamento
+Resubmit Job,Repetir Processo
+Cancel Job,Cancelar Processo
+Job canceled,Processo cancelado
+
+Cron Worker Enabled,Executor Cron Habilitado
+Configuration,Configurações
+How often do you want the cron to run?,Com que frequência rodar o cron?
+Use Crontab Format (Eg. "*/5 * * * *" for every 5 minutes),Use o formato Crontab (Ex.: "*/5 * * * *" para "a cada 5 minutos")
+Max Attempts,Maxímo de Tentativas
+Limit Jobs,Limite de Processos
+Set to 0 to have no limit,Preencha com 0 para não haver limites
+Queue,Fila
+Log Level,Nível de Log
+Minimal loglevel for logging to occur,Mínimo nível de log para ações serem adicionadas ao log
+"Execution Prevision","Previsão de Execução"
+"* This time may vary depending on the number of process in the queue.","* Este tempo pode variar de acordo com o número de processos na fila."
+"Admin Panel","Painel de Controle"
+"Job Queue","Fila de Processos"
